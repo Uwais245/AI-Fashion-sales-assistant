@@ -1,42 +1,15 @@
 const express = require("express");
-const Product = require("../Models/Product");
+const productController = require("../Controllers/productController");
+const { protect, adminOnly } = require("../Middleware/authMiddleware");
 
 const router = express.Router();
 
-router.post("/", async (req, res) => {
-  try {
-    const product = await Product.create(req.body);
+router.post("/", protect, adminOnly, productController.createProduct);
+router.get("/", productController.getProducts);
 
-    res.status(201).json({
-      success: true,
-      message: "Product created successfully",
-      data: product
-    });
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Product creation failed",
-      error: error.message
-    });
-  }
-});
-
-router.get("/", async (req, res) => {
-  try {
-    const products = await Product.find();
-
-    res.status(200).json({
-      success: true,
-      message: "Products fetched successfully",
-      data: products
-    });
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Products fetching failed",
-      error: error.message
-    });
-  }
-});
+// Must come before "/:id" or Express will treat "search" as an :id value
+router.get("/search", productController.searchProducts);
+router.get("/:id/availability", productController.checkAvailability);
+router.get("/:id", productController.getProductById);
 
 module.exports = router;

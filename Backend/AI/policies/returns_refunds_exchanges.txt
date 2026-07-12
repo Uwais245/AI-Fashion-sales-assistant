@@ -1,0 +1,108 @@
+SECTION 1: GENERAL RETURN ELIGIBILITY
+
+1.1 Standard Return Window
+Unless otherwise specified in Section 4 (Category-Specific Rules) or Section 7 (Promotional Exceptions), customers may return eligible items within fourteen (14) calendar days from the date of delivery confirmation. The delivery confirmation date is defined as the date recorded by the courier's tracking system, NOT the date the customer physically receives or opens the parcel.
+
+1.2 Condition Requirements
+Returned items must satisfy ALL of the following:
+(a) Unworn, unwashed, and unaltered;
+(b) All original tags, labels, and hygiene seals intact;
+(c) Original packaging included, where the packaging forms part of the product presentation (e.g. gift boxes, dust bags);
+(d) No odors (perfume, smoke, body odor) or visible signs of use.
+
+Items failing any condition in 1.2 may be rejected on inspection, in which case the item is returned to the customer at the customer's expense (see Section 6.4).
+
+1.3 Interaction with Exchange Requests
+A return and an exchange are distinct processes. If a customer initiates a return but the underlying intent is a size or color swap, staff should redirect the request to the Exchange workflow (Section 5), which carries different timelines and fee structures. Do not process as a return-then-repurchase, as this voids the free-exchange entitlement described in 5.2.
+
+SECTION 2: REFUND METHODS & TIMELINES
+
+2.1 Refund to Original Payment Method
+For prepaid orders (card, bank transfer, mobile wallet), refunds are issued to the original payment instrument within five (5) to seven (7) business days after the returned item passes inspection. "Business days" exclude weekends and public holidays observed in the Islamic Republic of Pakistan.
+
+2.2 Cash on Delivery (COD) Refunds
+COD orders cannot be refunded to a "card," as no card was charged. COD refunds are issued via:
+(a) Bank transfer to a customer-provided account (requires IBAN verification), OR
+(b) Store credit (see 2.3).
+COD refunds via bank transfer take seven (7) to ten (10) business days due to manual verification.
+
+2.3 Store Credit Option & Bonus
+Customers who elect store credit instead of a monetary refund receive the refund value PLUS a ten percent (10%) bonus. Example: a Rs 5,000 item refunded as store credit yields Rs 5,500 in credit. Store credit is valid for twelve (12) months from issuance and is non-transferable and non-withdrawable as cash. The 10% bonus does NOT apply to refunds arising from defective/damaged goods under Section 3, as those are already made whole at full value plus shipping.
+
+SECTION 3: DEFECTIVE, DAMAGED, OR INCORRECT ITEMS
+
+3.1 Reporting Window
+Defects, damage, or incorrect items must be reported within forty-eight (48) hours of delivery confirmation, accompanied by photographic evidence showing the defect and the order label. Reports after 48 hours fall back to the standard return process (Section 1) and lose the enhanced protections below.
+
+3.2 Enhanced Protections
+For validated claims under 3.1:
+(a) FashionHub bears ALL return shipping costs;
+(b) Customer may choose full refund OR free replacement OR store credit at full value (no 10% bonus, per 2.3);
+(c) The one-time exchange limit (5.3) is waived — the customer may cycle replacements until satisfied.
+
+3.3 Manufacturing Defect vs Transit Damage
+The distinction affects internal cost allocation but NOT customer entitlement. Both are handled identically from the customer's perspective. Staff should tag the claim correctly for supplier chargeback purposes.
+
+SECTION 4: CATEGORY-SPECIFIC RULES (OVERRIDE SECTION 1)
+
+4.1 Non-Returnable Categories
+The following are non-returnable for hygiene reasons, EXCEPT where defective under Section 3:
+- Innerwear and lingerie
+- Swimwear (where the hygiene seal is broken)
+- Pierced jewelry (earrings, nose pins)
+- Cosmetics and fragrances (where opened)
+
+4.2 Extended-Window Categories
+- Formal wear and bridal: 7-day window (shorter, due to event-driven return abuse).
+- Footwear: standard 14 days, but must be tried on indoors only; outsole scuffing voids eligibility.
+
+4.3 Final Sale Items
+Items marked "Final Sale" (distinct from ordinary "Sale" items) are non-returnable and non-exchangeable under all circumstances except a validated Section 3 defect. Ordinary Sale items follow standard rules.
+
+SECTION 5: EXCHANGES
+
+5.1 Exchange Window
+Size or color exchanges may be requested within seven (7) days of delivery — note this is SHORTER than the 14-day return window in 1.1. This asymmetry is intentional.
+
+5.2 Free First Exchange
+Each order line is entitled to one (1) free exchange, provided condition requirements (1.2) are met. FashionHub ships the replacement and collects the original in a single reverse-logistics trip where courier coverage allows.
+
+5.3 Subsequent Exchanges
+Second and further exchanges on the same order line incur a Rs 150 handling fee per exchange, EXCEPT where waived under 3.2(c) for defective goods.
+
+5.4 Price Differential
+Exchanges for an item of higher value require the customer to pay the difference before dispatch. Exchanges for lower value refund the difference as store credit (no 10% bonus, since this is an exchange, not a return).
+
+SECTION 6: RETURN SHIPPING & LOGISTICS
+
+6.1 Who Pays
+- Customer-initiated returns (change of mind): customer bears return shipping (flat Rs 200 deducted from refund).
+- Defective/incorrect (Section 3): FashionHub bears all costs.
+
+6.2 Pickup vs Drop-off
+Pickup is available in Lahore, Karachi, and Islamabad. Elsewhere, customers use a courier drop-off code sent via WhatsApp.
+
+6.3 Packaging for Return
+Customers must reuse the original tamper-proof packaging or equivalent. Items damaged in return transit due to inadequate packaging may have the damage deducted from the refund.
+
+6.4 Rejected Returns
+If an item fails inspection (Section 1.2), it is shipped back to the customer at the customer's expense (Rs 200). The customer is notified with inspection photos before reshipment.
+
+SECTION 7: PROMOTIONAL EXCEPTIONS
+
+7.1 Eid / Independence Day / Clearance Sales
+Items purchased during named sale events retain standard return rights UNLESS explicitly marked "Final Sale." However, the 10% store-credit bonus (2.3) is suspended during sale periods to prevent bonus-stacking with sale discounts.
+
+7.2 Bundle & BOGO Offers
+For "Buy One Get One" or bundle purchases, returning one component requires returning the entire bundle. Partial bundle returns are not accepted, as the free/discounted item's value is contingent on the full purchase.
+
+7.3 Discount Code Reversal
+If a return reduces an order's total below the threshold that qualified it for a discount code (e.g. WELCOME10 requiring a Rs 2,000 minimum), the discount is recalculated and the benefit clawed back from the refund.
+
+SECTION 8: FRAUD & ABUSE CONTROLS
+
+8.1 Serial Returner Flag
+Customers exceeding five (5) returns in any rolling thirty (30) day period, or whose return rate exceeds 60% of order value, may be flagged. Flagged accounts lose free-return privileges and must prepay return shipping.
+
+8.2 Wardrobing
+Returning visibly worn items (event wardrobing) is a breach and may result in refund denial and account suspension. See Section 1.2(d).
