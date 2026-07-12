@@ -1,3 +1,4 @@
+const authRoutes = require("./Routes/authRoutes");
 const productRoutes = require("./Routes/productRoutes");
 const customerRoutes = require("./Routes/customerRoutes");
 const orderRoutes = require("./Routes/orderRoutes");
@@ -11,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // <-- This is required to parse JSON request bodies
 
-
+app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/customers", customerRoutes);
 app.use("/api/orders", orderRoutes);
