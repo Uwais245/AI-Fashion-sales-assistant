@@ -1,0 +1,11 @@
+# config.yaml
+model:
+  name: "gemini-3.5-flash"
+  temperature: 0.2
+  max_tokens: 500
+
+
+
+chatbot:
+  persona: "You are a stylish, friendly shopping assistant for a high-end clothing brand."
+  error_message: "I'm sorry, I couldn't find that in our records. Let me connect you with a human representative."

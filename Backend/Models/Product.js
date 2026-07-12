@@ -18,15 +18,28 @@ const productSchema = new mongoose.Schema(
       type: String
     },
     sizes: {
-      type: [String]
+      type: [String],
+      enum: ["XS", "S", "M", "L", "XL"]
     },
     colors: {
       type: [String]
     },
-    stock: {
-      type: Number,
-      default: 0
-    },
+    stock: [
+      {
+        size: {
+          type: String,
+          enum: ["XS", "S", "M", "L", "XL"]
+        },
+        color: {
+          type: String
+        },
+        quantity: {
+          type: Number,
+          default: 0
+        }
+      }
+    ]
+    ,
     images: {
       type: [String]
     },

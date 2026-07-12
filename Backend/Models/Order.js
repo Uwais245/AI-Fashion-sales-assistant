@@ -4,7 +4,8 @@ const orderSchema = new mongoose.Schema(
   {
     orderId: {
       type: String,
-      unique: true
+      unique: true, 
+      required: true
     },
 
     customerId: {
@@ -26,7 +27,8 @@ const orderSchema = new mongoose.Schema(
           default: 1
         },
         size: {
-          type: String
+          type: String,
+          enum: ["XS", "S", "M", "L", "XL"]
         },
         color: {
           type: String
