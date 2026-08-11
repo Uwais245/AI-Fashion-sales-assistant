@@ -1,0 +1,72 @@
+SECTION 1: DELIVERY ZONES & TIMEFRAMES
+
+1.1 Zone Classification
+FashionHub classifies delivery destinations into four zones. Timeframes below assume the order is placed before the daily cutoff (Section 2) and passes payment verification.
+
+Zone A (Metro Same-City): Lahore only. 1-2 business days.
+Zone B (Major Cities): Karachi, Islamabad, Rawalpindi, Faisalabad, Multan, Peshawar. 3-4 business days.
+Zone C (Secondary Cities): All other district headquarters. 4-6 business days.
+Zone D (Remote/Rural): Tehsil-level and below, AJK, Gilgit-Baltistan, interior Balochistan. 6-9 business days, subject to courier serviceability.
+
+1.2 Serviceability Disclaimer
+Zone D delivery is NOT guaranteed. If no courier services a location, the customer is contacted within 24 hours to arrange the nearest pickup point or cancel for a full refund. Prepaid Zone D orders to unserviceable areas are refunded within 3 business days.
+
+SECTION 2: ORDER CUTOFF TIMES
+
+2.1 Standard Cutoff
+Orders placed before 2:00 PM PKT on a business day are processed same-day. Orders after 2:00 PM roll to the next business day's processing queue.
+
+2.2 Same-Day Delivery (Lahore Only)
+Same-day delivery is available exclusively in Zone A (Lahore) for orders placed before 12:00 PM PKT, for an additional Rs 350. Orders between 12:00 PM and 2:00 PM in Lahore default to next-day unless the customer explicitly upgrades and the address falls within the same-day serviceable radius (see 2.3).
+
+2.3 Same-Day Serviceable Radius
+Same-day covers addresses within 25 km of our Gulberg, Lahore hub. Addresses beyond 25 km but within Lahore district are next-day only, even if the customer pays the same-day fee (in which case the fee is refunded).
+
+SECTION 3: SHIPPING CHARGES
+
+3.1 Base Charges by Zone
+Zone A: Rs 150
+Zone B: Rs 200
+Zone C: Rs 250
+Zone D: Rs 350 (where serviceable)
+
+3.2 Free Shipping Threshold
+Orders with a merchandise subtotal (AFTER discounts, BEFORE shipping) of Rs 3,000 or more qualify for free STANDARD shipping in Zones A-C. Zone D is excluded from free shipping and always incurs the Rs 350 charge regardless of order value, due to third-party surcharge pass-through.
+
+3.3 Interaction Between Free Shipping and Returns
+If a customer's order qualified for free shipping (subtotal >= Rs 3,000) but a partial return drops the retained subtotal below Rs 3,000, the originally-waived shipping fee is NOT retroactively charged. Free shipping is assessed once at purchase and not clawed back on partial returns. (Note: this differs from discount-code clawback in the Returns Policy Section 7.3 — shipping and discount clawbacks follow different rules. Do not conflate them.)
+
+3.4 Same-Day Fee Stacking
+The Rs 350 same-day fee is charged IN ADDITION to any applicable base shipping and is never waived by the free-shipping threshold. A Rs 5,000 Lahore order gets free standard shipping but still pays Rs 350 if same-day is chosen.
+
+SECTION 4: CASH ON DELIVERY (COD)
+
+4.1 Eligibility
+COD is available in Zones A, B, and C for order values up to Rs 15,000. Zone D is prepaid-only. Orders above Rs 15,000 in any zone require prepayment.
+
+4.2 COD Verification Call
+First-time COD customers receive an automated verification call/message. Non-response within 24 hours pauses the order until confirmed, which extends the effective delivery timeframe.
+
+4.3 COD Refusal Consequences
+Refusing to accept a COD parcel at the door without a valid reason counts toward the serial-returner flag (Returns Policy Section 8.1). Repeated COD refusals may restrict an account to prepaid-only.
+
+SECTION 5: TRACKING & NOTIFICATIONS
+
+5.1 Tracking Assignment
+A tracking number is assigned at dispatch (not at order placement) and pushed via SMS and WhatsApp. Between order placement and dispatch, order status shows "Processing" with no tracking number — this is expected, not an error.
+
+5.2 Multi-Parcel Orders
+Large orders may ship in multiple parcels with separate tracking numbers, potentially arriving on different days. Customers are notified when an order is split.
+
+SECTION 6: FAILED DELIVERY & RESCHEDULING
+
+6.1 Attempt Policy
+Couriers attempt delivery up to two (2) times on consecutive business days. After two failed attempts, the parcel returns to the warehouse.
+
+6.2 Post-Failure Handling
+Returned-to-warehouse parcels are held for 5 business days. The customer may request re-dispatch (re-charged shipping applies for change-of-mind failures; waived for courier error) or cancel. Unclaimed parcels after 5 days are restocked and the order refunded per the Refunds Policy, minus original shipping for prepaid change-of-mind cases.
+
+SECTION 7: INTERNATIONAL
+
+7.1 Availability
+FashionHub ships domestically within Pakistan only. International shipping is not offered. Orders with international billing addresses but domestic Pakistani shipping addresses are accepted; international shipping addresses are auto-rejected at checkout.
