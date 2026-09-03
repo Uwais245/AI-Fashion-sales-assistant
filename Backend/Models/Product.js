@@ -44,13 +44,31 @@ const productSchema = new mongoose.Schema(
       min: 0
     },
     description: {
-      type: String,
-      trim: true
+      type: String
     },
-    variants: {
-      type: [variantSchema],
-      default: []
+    sizes: {
+      type: [String],
+      enum: ["XS", "S", "M", "L", "XL"]
     },
+    colors: {
+      type: [String]
+    },
+    stock: [
+      {
+        size: {
+          type: String,
+          enum: ["XS", "S", "M", "L", "XL"]
+        },
+        color: {
+          type: String
+        },
+        quantity: {
+          type: Number,
+          default: 0
+        }
+      }
+    ]
+    ,
     images: {
       type: [String],
       default: []

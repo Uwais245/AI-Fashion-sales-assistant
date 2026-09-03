@@ -1,11 +1,12 @@
-const authRoutes = require("./Routes/authRoutes");
+const express = require("express");
+const cors = require("cors");
+require("dotenv").config();
+
+const connectDB = require("./config/db");
 const productRoutes = require("./Routes/productRoutes");
 const customerRoutes = require("./Routes/customerRoutes");
 const orderRoutes = require("./Routes/orderRoutes");
-const express = require("express");
-const mongoose = require("mongoose");
-const cors = require("cors");
-require("dotenv").config();
+const authRoutes = require("./Routes/authRoutes");
 
 const app = express();
 
@@ -21,21 +22,28 @@ app.get("/", (req, res) => {
   res.send("AI Fashion Sales Assistant Backend is running");
 });
 
+// 404 for anything that didn't match a route above
+app.use((req, res) => {
+  res.status(404).json({
+    success: false,
+    message: `Route not found: ${req.method} ${req.originalUrl}`,
+  });
+});
+
+// Centralized error handler - catches anything thrown/passed to next()
+// instead of each route repeating its own try/catch boilerplate
+app.use((err, req, res, next) => {
+  console.error(err);
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || "Something went wrong",
+  });
+});
+
 const PORT = process.env.PORT || 5000;
 
-mongoose
-  .connect(process.env.MONGO_URI)
-  .then(() => {
-    console.log("MongoDB connected successfully");
-
-    app.listen(PORT, () => {
-      console.log(`Server running on port ${PORT}`);
-    });
-  })
-  .catch((error) => {
-    console.log("MongoDB connection error:", error.message);
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
   });
-
-// app.listen(PORT, () => {
-//   console.log(`Server running on port ${PORT}`);
-// });
+});

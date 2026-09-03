@@ -1,0 +1,88 @@
+SECTION 1: DISCOUNT CODE FRAMEWORK
+
+1.1 One-Code-Per-Order Rule
+A maximum of one (1) discount CODE may be applied per order. This rule governs codes only; it does not restrict the separate benefits described in Sections 3 (Loyalty Cashback) and 4 (Student Discount), which have their own stacking logic in Section 5.
+
+1.2 New Customer Code (WELCOME10)
+- Grants 10% off the merchandise subtotal.
+- Requires a minimum subtotal of Rs 2,000 BEFORE the discount is applied.
+- Valid for the first order only; auto-voids if the account has any prior completed order.
+- Cannot be combined with active sale-event pricing (Section 2.3).
+- If a subsequent return drops the order below the Rs 2,000 minimum, the discount is clawed back from the refund (cross-reference: Returns Policy 7.3).
+
+1.3 Seasonal Codes
+Time-boxed codes (e.g. EID25, INDEP14) carry their own terms printed at issuance. Where a seasonal code's terms conflict with this document, the code's specific terms prevail for that code's validity window only.
+
+SECTION 2: SALE EVENTS
+
+2.1 Sale vs Final Sale
+"Sale" items follow standard return/exchange rules. "Final Sale" items are terminal (see Returns Policy 4.3). These are different tags and must not be conflated.
+
+2.2 Sale Discount Depth
+Sale events typically range 15%-40% off. The displayed sale price is the final item price; percentage is illustrative.
+
+2.3 Code Suspension During Sales
+During named sale events, discount CODES (Section 1) are disabled to prevent stacking a code on top of an already-reduced sale price. Loyalty cashback (Section 3) remains usable during sales; student discount (Section 4) does NOT stack on sale items. This asymmetry between cashback and student discount is intentional — see the matrix in Section 5.
+
+SECTION 3: LOYALTY & REWARDS PROGRAM
+
+3.1 Enrollment
+Customers are auto-enrolled after their fifth (5th) completed, non-returned order. Orders that are fully returned do not count toward the threshold; partially returned orders count.
+
+3.2 Cashback Rate & Tiers
+- Standard tier (5-14 lifetime orders): 5% cashback as store credit.
+- Silver tier (15-29 orders): 7% cashback.
+- Gold tier (30+ orders): 10% cashback + early sale access.
+Tier is evaluated at the moment of each order and applied to that order's eligible subtotal.
+
+3.3 Cashback Base
+Cashback is computed on the merchandise subtotal AFTER any discount code or sale reduction, and BEFORE shipping. Cashback is credited only after the order passes its return window (14 days), to prevent cashback on later-returned goods.
+
+3.4 Cashback Stacking
+Loyalty cashback is the ONLY benefit that stacks universally — it applies alongside discount codes, sale pricing, and student discount. It is a post-hoc reward, not a checkout discount, which is why it does not violate the one-code rule.
+
+SECTION 4: STUDENT DISCOUNT
+
+4.1 Eligibility & Verification
+10% student discount requires a valid student ID uploaded and verified at checkout. Verification is manual and may delay order processing by up to 24 hours.
+
+4.2 Stacking Constraints
+Student discount:
+- Stacks WITH loyalty cashback (Section 3).
+- Does NOT stack with discount codes (counts as a code-equivalent for the one-code rule).
+- Does NOT apply to sale or Final Sale items.
+- Applies only to full-price merchandise.
+
+4.3 Mixed Carts
+For carts containing both full-price and sale items, the student discount applies ONLY to the full-price portion. The system itemizes eligibility per line.
+
+SECTION 5: STACKING MATRIX (AUTHORITATIVE)
+
+The following governs all combinations. Where prose elsewhere seems to conflict, THIS matrix controls.
+
+                        | Discount Code | Sale Price | Student Disc | Loyalty Cashback
+Discount Code           |      —        |    NO      |     NO       |      YES
+Sale Price              |     NO        |    —       |     NO       |      YES
+Student Discount        |     NO        |    NO      |     —        |      YES
+Loyalty Cashback        |    YES        |    YES     |    YES       |      —
+
+Reading: pick any two benefits; the cell shows whether they combine. Loyalty cashback is the universal stacker. Everything else is mutually exclusive with everything except cashback.
+
+SECTION 6: BULK & WHOLESALE
+
+6.1 Bulk Threshold
+Orders of 10+ identical units (same SKU, same size) qualify for a 20% bulk discount, arranged via direct sales contact, NOT self-serve at checkout.
+
+6.2 Bulk Exclusions
+Bulk discount does not stack with any Section 1-4 benefit and is quoted as a standalone net price. Bulk orders are prepaid-only and follow a modified return policy (restocking fee of 15% applies) communicated at quotation.
+
+SECTION 7: PRICE MATCH & ADJUSTMENTS
+
+7.1 Price Drop Within 7 Days
+If an item's price drops within 7 days of a customer's purchase (excluding sale events), the customer may request a one-time store-credit adjustment for the difference. Sale-event drops are excluded to prevent gaming pre-sale purchases.
+
+7.2 No External Price Match
+FashionHub does not match competitor pricing.
+
+SECTION 8: BUDGET FILTERS
+Customers may filter by "Under Rs 2000" and "Under Rs 3000" price bands. These are dynamic filters reflecting current effective price (post-sale), so an item may enter or leave a band as pricing changes.
