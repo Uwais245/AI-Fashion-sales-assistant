@@ -9,8 +9,16 @@ const customerSchema = new mongoose.Schema(
 
     phone: {
       type: String,
-      required: true
+      required: true,
+      unique: true
     },
+
+    gender: {
+      type: String,
+      enum: ["Male", "Female", "Other"]
+    }
+
+    ,
 
     instagramId: {
       type: String
@@ -36,6 +44,10 @@ const customerSchema = new mongoose.Schema(
       },
       category: {
         type: String
+      },
+      size: {
+        type: String,
+        enum: ["XS", "S", "M", "L", "XL"]
       }
     }
   },
